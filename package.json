@@ -1,0 +1,42 @@
+{
+  "name": "bamios",
+  "version": "1.0.0",
+  "description": "Bamios - Fast, Clean & Beautiful HTML5 JS Audio Player",
+  "main": "./src/js/bamios.js",
+  "browser": "./dist/js/bamios.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c && sass --no-source-map src/scss/bamios.scss dist/css/bamios.css && sass --no-source-map src/scss/bamios.scss dist/css/bamios.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avimodam/bamios.git"
+  },
+  "keywords": [
+    "audio",
+    "player",
+    "html5",
+    "bamios"
+  ],
+  "author": "Anthony Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avimodam/bamios/issues"
+  },
+  "homepage": "https://avimodam.github.io/bamios-audio-player/",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-terser": "^0.4.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "rollup": "^3.17.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "sass": "^1.58.2"
+  }
+}
