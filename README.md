@@ -1,6 +1,6 @@
 ![Bamios - HTML5 JS Audio Player](images/bamios-js-audio-player-ui.png)
 
-[<font size="4">**➥ Online Demo**</font>](https://avimodam.github.io/bamios-demo/)
+[<font size="4">**➥ Online Demo**</font>](https://avimodam.github.io/bamios-audio-player/)
 
 # Bamios
 
